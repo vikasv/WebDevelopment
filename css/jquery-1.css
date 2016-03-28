@@ -1,0 +1,21 @@
+﻿body{
+        text-align:center;
+        padding-left:200px;
+        padding-right:200px;
+        padding-bottom:50px;
+    }
+    #first-desc,#second-desc,#third-desc{
+        display:none;
+    }
+
+    #first,#second,#third{
+        color:white;
+        padding-left:20px;
+        padding-right:20px;
+        background-color:black;
+        border-left:2px white;
+        border-right:2px white;
+        display:inline-block;
+        margin-bottom:50px;
+        margin-top:50px;
+    }

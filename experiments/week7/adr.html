@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Angular JS basics</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="../../javascript/angular.min.js"> </script>
+    <script src="../../javascript/adr.js"> </script>
+</head>
+
+<body ng-app="startAJS">
+    <div class="page-wrap">
+        <h1 style="text-align:center"> Know your skills </h1>
+        <div ng-controller="skills">
+
+            <table class="table table-striped">
+                <thead>
+                    <tr style="text-align:center">
+                        <th> Topic </th>
+                        <th> Rating </th>
+                        <th> &nbsp </th>
+                    </tr>
+                    <tr>
+                        <th> <input class="form-control" ng-model="newskill.title" /> </th>
+                        <th> <input class="form-control" ng-model="newskill.rating" /> </th>
+                        <th>
+                            <button ng-click="addskill(newskill)" class="btn btn-success pull-right">
+                                <span class="glyphicon glyphicon-plus">
+                                </span>
+                            </button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="skill in skillset">
+                        <td> {{skill.title}}</td>
+                        <td> {{skill.rating}}</td>
+                        <td>
+                            <button ng-click="removeskill(skill)" class="btn btn-danger pull-right">
+                                <span class="glyphicon glyphicon-remove"> </span>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr />
+            <h3> Description</h3>
+            <p> In this experiment, I have implemented basic Angular JS scripts to add and remove elements </p>
+
+            <hr />
+
+            <h3 class="black"> Source code</h3>
+            <a href="../../fileview/Default.aspx?~/experiments/week7/adr.html" target="_blank"> HTML code </a>
+            <br />
+            <a href="../../fileview/Default.aspx?~/javascript/adr.js" target="_blank"> JS code </a>
+
+
+            <hr />
+            <h3 class="black">References</h3>
+
+            <a href="https://www.youtube.com/watch?v=PlAxG8R_zXI" target="_blank"> youtube videos</a>
+
+        </div>
+        </div>
+</body>
+</html>

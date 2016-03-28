@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Geo Location </title>
+    <link rel="stylesheet" href="../../css/geo.css" />
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="../../javascript/geo.js"> </script>
+</head>
+
+<body class="slideshow">
+    <h1 class="black" style="text-align:center">Working with Maps</h1>
+ 
+    <div id="map"></div>
+    <div class="inputs">
+        <div>
+            <button type="button" onclick="getCurrentLocation()">Pick Current Location</button>
+            <label id="loc"></label>
+        </div>
+        <div>
+            <label><bold>Enter Location</bold></label>
+            <input type="text" id="add" />
+            <button type="submit" onclick="JavaScript:getAddress()">See on Map</button>
+        </div>
+    </div>
+    <h2 class="black"> Experiments</h2>
+    
+
+        <h3>
+            Embedding Google map using the javascript. Clicking on the button picks current location.
+            If we want pick any location of our choice, we have to enter the location name in the provided div element.
+        </h3>
+    </div>
+
+    <br />
+    <br />
+    
+    <h2 class="black"> Source code</h2>
+    <a href="../../fileview/Default.aspx?~/experiments/jquery2/geo.html" target="_blank"> HTML code </a>
+    <a href="../../fileview/Default.aspx?~/css/geo.css" target="_blank"> CSS code </a>
+    <a href="../../fileview/Default.aspx?~/javascript/geo.js" target="_blank"> JS code </a>
+
+    <h2 class="black">References</h2>
+    <div class="">
+        <p>
+            <a href="https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map" target="_blank">
+                Google tutorial
+            </a>
+        </p>
+    </div>
+
+</body>
+</html>

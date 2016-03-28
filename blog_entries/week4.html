@@ -1,0 +1,44 @@
+<p>
+
+    <h3> Week4 : Started working on JQuery </h3>
+    Having explored HTML and CSS extensively in the previous weeks, I believe the next step to succesfully develop a website would be to explore and learn JavaScript and
+    frameworks like JQuery which saves the developer from reinventing the wheel of writing most commonly used features. I have worked on the below experiments this week:
+</p>
+<ol>
+
+        <li>
+            <b>Hide and Show support:</b>Generally, if you wanna show three different contents when three different buttons are clicked, three different regions or three different links are used altogether to get this feature. But JQuery does it all on the same page in the same region using the "Hide and show" feature.
+
+            When a button is clicked, its content is shown and the content related to other buttons are hidden using the hide() feature. This feature is very important
+            in saving the space on a page and also helps us in avoiding far too many links on a huge website by using the same space for different content.
+            <a href="http://net4.ccs.neu.edu/home/vikasv/experiments/jquery/jquery-1.html"> Click to see hide and show effects</a>
+        </li>
+    <li>
+        <b>Fade and Toggle effects: </b>
+        This effect is used to get the fade in and fade out feature automatically using JQuery. 
+        FadeToggle() method toggles between fadeIn() and fadeOut() method. If the elements are fade out, 
+        fadeToggle() will fade them in. If the elements are fade in, fadeToggle() will fade them out.
+        <a href="http://net4.ccs.neu.edu/home/vikasv/experiments/jquery/jquery-2.html"> Fade and toggle effects </a>
+    </li>
+        <li>
+            <b>Animation effects: </b> 
+            It is amazing to realize the power of animate() function in JQuery. 
+            This makes the things very easy to animate which is otherwise almost impossible. 
+            It can be used to manipulate many properties at one.
+
+        <pre>
+            Sample code:
+                $("button").click(function(){
+                    $("div").animate({
+                    left: '250px',
+                    opacity: '0.5',
+                    height: '150px',
+                    width: '150px'
+                    });
+                }); 
+        </pre>
+
+            <a href="http://net4.ccs.neu.edu/home/vikasv/experiments/jquery/jquery-3.html"> Click here to see the animation effect </a>
+        </li>
+
+    </ol>

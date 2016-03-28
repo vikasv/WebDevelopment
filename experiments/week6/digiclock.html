@@ -1,0 +1,83 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <title> DIGITAL CLOCK USING JQUERY </title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="../../javascript/digiclock.js"> </script>
+    <link rel="Stylesheet" href="../../css/digiclock.css" />
+
+</head>
+<body>
+    <form id="form1">
+
+        <h1>
+            Digital Clock 
+        </h1>
+
+        
+        <div class="clock">
+            <!-- The day date month year -->
+            <div class="Date"></div>
+            <!-- The hours, mins and seconds -->
+            <ul class="Date1">
+                <li class="hours"></li>
+                <li class="colon">:</li>
+                <li class="min"></li>
+                <li class="colon">:</li>
+                <li class="sec"></li>
+            </ul>
+        </div>
+
+ 
+
+
+ 
+        <p class="content">
+            The day,date, month and year are retrieved using the Javascript built-in functions such as
+            getDay(), getDate(),getMonth() and getFullYear().
+        </p>
+        <p class="content">
+            The getDay() returns the number of the day and getMonth returns the number of the month starting from 0.
+            Therefore, an array is maintained for both of these to display the dayName and the monthName respectively.
+        </p>
+
+
+        <p class="content">
+            The time is displayed using Javascript built-in functions such as getMinutes(), getHours() and getSeconds().
+        </p>
+
+        <p class="content">
+            The setInterval() Javascript function is used to make a call periodically to show time.
+        </p>
+
+
+        <hr />
+
+        <h2 class="black"> Source code</h2>
+        <a href="../../fileview/Default.aspx?~/experiments/week6/digiclock.html" target="_blank"> HTML code </a>
+        <br />
+        <a href="../../fileview/Default.aspx?~/css/digiclock.css" target="_blank"> CSS code </a>
+        <br />
+        <a href="../../fileview/Default.aspx?~/javascript/digiclock.js" target="_blank"> JS code </a>
+
+
+        <hr />
+        <h2 class="black">References</h2>
+
+        
+
+        <div class="">
+            <p class="content">
+                <a href="http://www.w3schools.com/jsref/jsref_obj_date.asp" target="_blank">
+                    http://www.w3schools.com/jsref/jsref_obj_date.asp
+                </a>&nbsp;
+            </p>
+        </div>
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Draggable Page </title>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#draggableclass").draggable({
+                color:'red',
+                cursor: 'move',        // sets the cursor apperance
+                opacity: 0.35,         // opacity fo the element while it's dragged
+                stack: $('#headerme')       // brings the '#dg1' item to front
+            });
+        });
+    </script>
+</head>
+<body id="draggableclass">
+    <h1 id="headerme"> Draggable Page</h1>
+    <h3> Every DOM in this page is draggable</h3>
+    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <img src="draggable.png" />
+</body>
+</html>

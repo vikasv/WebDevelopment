@@ -1,0 +1,42 @@
+body{
+    color:white;
+    background-color:black;
+}
+
+#header{
+
+    text-align:center;
+}
+
+#hover{
+
+    
+
+}
+#hover img{
+
+    opacity:0.5;
+}
+
+#hover img:hover{
+
+    opacity:1.0;  
+}
+
+#text{
+
+    background:url(cr3.jpg) repeat;
+    border:2px solid black;
+}
+
+#transparent-text{
+    color:maroon;
+    text-align:center;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+
+}
+
+}

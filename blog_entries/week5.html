@@ -1,0 +1,56 @@
+﻿<p>
+    <h3> Week5 : Experiments on Jquery </h3> </p>
+     
+    <p> During last week, I have started learning jquery and worked on some experiments such as <b> how to hide and show html elements </b>
+        ,<b> how to implement fade and toggle elements</b> and <b> how to create custom animations </b>
+    </p>
+
+    <p> Coming to this week, I have learned few more Jquery effects, </p> 
+        <ol>
+            <li>
+                <b> Sortable and Draggable elements :</b>
+                <p> By using draggable functionality on any DOM element, we can drag the DOM element from one position to another.
+                    Here, the elements are sorted by themselves as we have written sorted functionality too.
+
+                    <pre>
+                            $(function () {
+                                console.log("inside script");
+                                $("ul").sortable();
+                                $("ul").draggable();
+                            });       
+                    </pre>
+            
+                    <a href="http://net4.ccs.neu.edu/home/vikasv/experiments/jquery2/sortable.html" target="_blank"> Open this page and try 
+                    dragging object by clicking on it with the mouse and dragging it anywhere within the viewport and 
+                    we can see that DOM is dragged and other elements are sorted .</a>
+                    </p>
+            </li>
+
+            <li>
+                <b> Image animation using Jumbotron</b>
+                <p> A jumbotron indicates a big box for calling extra attention to some special content or information.
+                    A jumbotron is displayed as a grey box with rounded corners. It also enlarges the font sizes of the text inside it.
+                    Use a 'div' element with class .jumbotron to create a jumbotron. 
+                </p>
+                <p>
+                    Here, I have used effects on x-axis inorder to move the banner from right to left
+                </p>
+                <pre>
+                      banner.css('backgroundPosition', x + 'px' + ' ' + y + 'px');
+                      window.setInterval(function () {
+                            banner.css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                            x--;
+                      }, 90); 
+                </pre>
+
+                <a href="http://net4.ccs.neu.edu/home/vikasv/experiments/jquery2/imageanimation.html"> Image animation using Jumbotron </a>
+            </li>
+            <li>
+                <b> Working with Maps</b>
+                <p> In this experiment, I have worked on google maps i.e by embedding google maps using javascript</p>
+                <p> I have written various javascripts to locate the current location and any other location needed</p>
+                <a href="http://net4.ccs.neu.edu/home/vikasv/experiments/jquery2/geo.html"> Google Maps</a>
+            </li>
+        </ol> 
+    
+

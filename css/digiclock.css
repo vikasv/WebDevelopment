@@ -1,0 +1,44 @@
+﻿      .clock {
+            width: 500px;
+            padding: 20px;
+            color: black;
+            border: 3px solid;
+            border-radius: 20px;
+            margin: 0 auto;
+        }
+
+        /* This is the CSS for the entire date thus giving shadow effect and desirable font */
+        .Date {
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 0px 5px 5px gray;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        /* css for date ul */
+        .Date1 {
+            width: 500px;
+            margin: 0 auto;
+            list-style: none;
+            text-align: center;
+            padding: 0;
+        }
+
+            /* The hours, min, sec is shown as a list which is displayed inline */
+            .Date1 li {
+                display: inline;
+                font-size: 22px;
+                text-align: center;
+                font-family: 'Trebuchet MS', Arial, sans-serif;
+                text-shadow: 0px 3px 3px gray;
+            }
+
+
+
+        .colon {
+            padding: 6px;
+        }

@@ -1,0 +1,4 @@
+../../story/whatisnext.htm?../experiments/week6/jqueryStory.txt                    jQuery Experiments
+digiclock.html																		 Digital clock
+imageslideshow.html																	 Image Slide Show
+calc.html																			Calculator

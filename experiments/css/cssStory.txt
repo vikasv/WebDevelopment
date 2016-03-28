@@ -1,0 +1,6 @@
+../../story/whatisnext.htm?../experiments/css/cssStory.txt                        CSS Experiments
+css-1.html								    	  CSS - Experiments on images
+css-2.html									  CSS3 - Effects
+css-3.html									  Fixed background
+bootstrap-1.html							 Bootstrap basics
+

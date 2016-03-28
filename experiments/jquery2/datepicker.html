@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Datepicker </title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script>
+        var date
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+        $("#submit").click(function () {
+            date = $("#datePicker").val();
+            alert("The entered Date is " + date);
+        });
+    </script>
+</head>
+<body>
+    <h1> Date Picker Experiment </h1>
+    <p>Date: <input type="text" id="datepicker"></p>
+    <button id="submit" class="btn btn-primary">Submit</button>
+
+
+</body>
+</html>

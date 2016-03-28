@@ -1,0 +1,4 @@
+../../story/whatisnext.htm?../experiments/week7/angularjs.txt                    Angular JS
+adr.html																		 Add or Remove elements
+favorite.html																	 Select Favorite element
+dictionary.html																	 Dictionary

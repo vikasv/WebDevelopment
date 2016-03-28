@@ -1,0 +1,6 @@
+../../story/whatisnext.htm?../experiments/jquery/jqueryStory.txt                    jQuery Experiments
+jquery-1.html								    	    Hide and Show
+jquery-2.html								    	    Fade and Toggle effects
+jquery-3.html								    	    Animation effect
+
+

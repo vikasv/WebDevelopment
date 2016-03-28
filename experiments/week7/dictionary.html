@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dictionary with AJAX</title>
+    
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <script src="../../javascript/dictionary.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <h1 class="header" style="margin:15px">Dictionary</h1>
+    <div class="input-group col-md-6" style="margin:15px">
+        <input type="text" class="form-control" id="inputquery" placeholder="Search for word...">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button" id="search">Search</button>
+        </span>
+    </div>
+
+    <ul class="list-group data col-md-8" style="margin:10px;list-style:none"></ul>
+
+    <div class="col-md-11" style="margin:10px">
+
+        <div>
+            <h3 class="black"> Description</h3>
+        </div>
+        <div class="content">
+
+            <p>Enter a word and click on search to view various definitions available</p>
+            <p>
+                Searched for an api that provides dictionary and linked it to the page using ajax() function in jQuery.
+            </p>
+
+        </div>
+        
+        
+            <p>
+                In this jquery snippet, there is event handler for the button "search". On clicking the button the ajax function is invoked.
+                The connection to the url is made and data retrieved as JSON as objects. Array is then iterated over and rendered to HTML as the items in the list.
+            </p>
+        
+        <hr />
+
+        <h3 class="black"> Source code</h3>
+        <a href="../../fileview/Default.aspx?~/experiments/week7/dictionary.html" target="_blank"> HTML code </a>
+        <br />
+        <a href="../../fileview/Default.aspx?~/javascript/dictionary.js" target="_blank"> JS code </a>
+
+
+        <hr />
+        <h3 class="black">References</h3>
+        <p><a href="http://api.wordnik.com" target="_blank">API page</a></p>
+
+    </div>
+</body>
+</html>

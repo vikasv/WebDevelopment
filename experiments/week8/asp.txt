@@ -1,0 +1,3 @@
+../../story/whatisnext.htm?../experiments/week8/asp.txt                    									ASP.NET Experiments
+exp-1.aspx																	E-mail Validation
+exp-2.aspx																Retrieving RSS Feeds

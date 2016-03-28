@@ -1,0 +1,41 @@
+body{
+    text-align:center;
+    background: url(wall_paper1.jpeg) no-repeat center center fixed; 
+    color:red;
+}
+
+header{
+    font-size:32px;
+    
+}
+
+.page-wrap {
+width: 400px;
+margin: 50px auto;
+padding: 20px;
+background: white;
+-moz-box-shadow: 0 0 20px black;
+-webkit-box-shadow: 0 0 20px black;
+box-shadow: 0 0 20px black;
+opacity:0.4;
+color:maroon;
+
+}
+
+.first {
+width: 400px;
+margin: auto;
+padding: 20px;
+background: white;
+-moz-box-shadow: 0 0 20px black;
+-webkit-box-shadow: 0 0 20px black;
+box-shadow: 0 0 20px black;
+opacity:0.8;
+color:darkblue;
+}
+
+
+.page-wrap:hover{
+    opacity:1;
+}
+

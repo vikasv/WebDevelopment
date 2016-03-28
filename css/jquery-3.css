@@ -1,0 +1,35 @@
+﻿   body{
+        
+        text-align:center;
+        padding-left:200px;
+        padding-right:200px;
+        padding-top:50px;
+        padding-bottom:50px;
+        background-color:#2f4f4f;
+    }
+
+    #buttons1{
+        padding:20px;
+        display:inline;
+    }
+
+     div {
+    background-color: #bca;
+    width: 200px;
+    height: 1.1em;
+    text-align: center;
+    border: 2px solid green;
+    margin: 3px;
+    font-size: 14px;
+  }
+
+     #block1{
+         margin-top:60px;  
+         width:250px;
+         height:80px;
+     }
+    
+    button {
+    font-size: 14px;
+  }
+ 

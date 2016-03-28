@@ -1,0 +1,9 @@
+../../story/whatisnext.htm?../experiments/html/htmlStory.txt                        HTML Experiments
+responsivepages.html	                                                   	    Responsive Pages
+htmlforms-2.html								    Html forms-2
+htmlforms-1.html								    Html forms-1
+htmlbasics-2.html								    Html basics-2
+htmlbasics-1.html								    Html basics-1
+
+
+

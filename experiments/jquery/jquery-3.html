@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset='utf-8' />
+
+    <title>Animate</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
+
+    <link rel="stylesheet" href="../../css/jquery-3.css" />
+    
+
+    
+
+</head>
+
+<body>
+
+    <h1> Animation effect</h1>
+    <h3 style="margin-bottom:50px"> (click on the below button to see animation effects) </h3>
+
+        <div id="buttons1">
+        <button id="go1">&raquo; Animate Block</button>
+        <button id="go2">&raquo; Reset</button>
+        </div>
+        <div id="block1"> Inorder to maximize this div, we should click on animate block button. <br />
+        We have used animate function of jquery for this effect.
+        </div>
+ 
+
+        <script>
+            $("#go1").click(function () {
+                $("#block1")
+                  .animate({
+                      width: "90%"
+                  }, {
+                      queue: false,
+                      duration: 3000
+                  })
+                  .animate({ fontSize: "24px" }, 1500)
+                  .animate({ borderRightWidth: "15px" }, 1500);
+            });
+
+            $("#go2").click(function () {
+                $("div").css({
+                    width: "",
+                    fontSize: "",
+                    borderWidth: ""
+                });
+            });
+        </script>
+
+    <hr />
+
+    <h3> Source code</h3>
+    <a style="color:white" href="../../fileview/Default.aspx?~/experiments/jquery/jquery-3.html" target="_blank"> HTML code </a>
+    <br />
+    <a href="../../fileview/Default.aspx?~/css/jquery-3.css" target="_blank"> CSS code </a>
+    <br />
+    
+
+    <hr />
+    <h3> References </h3>
+    <a style="color:white" href="http://www.w3schools.com/jquery/jquery_animate.asp" target="_blank"> W3schools </a>
+
+    <hr />
+    
+
+</body>
+
+</html>
